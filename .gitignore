@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+.pytest_cache/
+
+
+# Environment and credentials
+.env
+
+# Generated reports
+reports/screenshots/
+reports/videos/
+
+# Test execution history
+phone_number_history.json
+
+# IDE
+.vscode/
+.idea/
+
+# Video/MP4 outputs
+*.webm
+
+# Logs
+*.log

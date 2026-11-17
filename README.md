@@ -35,21 +35,7 @@ playwright install chromium
 ### Configuration
 
 Create a `.env` file in the project root:
-
-```env
-# Mailosaur credentials (get these from your Mailosaur dashboard)
-MAILOSAUR_API_KEY=your_api_key_here
-MAILOSAUR_SERVER_ID=your_server_id_here
-MAILOSAUR_DOMAIN=your_domain.mailosaur.net
-
-# Test settings
-TEST_PASSWORD=QaTesting@123
-TEST_COUNTRY=Test
-HEADLESS=false
-```
-
-> **Note**: The `.env` file is in `.gitignore` - never commit real credentials!
-
+Look at the .env.example file in this repo.
 ---
 
 ## ▶️ How to Run
@@ -172,12 +158,6 @@ After every run you get:
 | **5 Screenshots** | `reports/screenshots/` | One per major step |
 | **Video Recording** | `reports/videos/` | Full run in WebM format |
 | **Console Logs** | Terminal output | Step-by-step progress |
-
-### Convert Video to MP4 (for submission)
-```bash
-# Requires ffmpeg installed
-ffmpeg -i reports/videos/page@<latest>.webm demo_video.mp4
-```
 
 ---
 

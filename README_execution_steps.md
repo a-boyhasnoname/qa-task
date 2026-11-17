@@ -205,18 +205,6 @@ ffmpeg -i reports/videos/page@<latest>.webm demo_video.mp4
 
 ---
 
-## ✅ Submission Checklist (Task Requirements)
-
-- [x] **Full signup flow automated** - 6 steps, no manual intervention
-- [x] **Form submissions handled** - all pages, dynamic dropdowns, file upload
-- [x] **GitHub repo** - with proper `.gitignore`, `.env.example`
-- [x] **README** - this file (run commands, env setup, test data)
-- [x] **Screenshots** - `reports/screenshots/` (5 steps)
-- [x] **Demo video** - `reports/videos/` (WebM, convert to MP4)
-- [x] **Test report** - console output + screenshots serve as evidence
-
----
-
 ## 👨‍💻 About This Project
 
 Built as part of the **Vrit Technologies QA Intern Task Round**.
